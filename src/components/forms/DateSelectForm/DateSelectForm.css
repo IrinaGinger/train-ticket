@@ -1,0 +1,21 @@
+.header-form-date-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 6px;
+    margin-bottom: 95px;
+    padding-left: 8px;
+    padding-right: 6px;
+}
+
+.sidebar-date-block {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    gap: 28px;
+    padding: 43px 4px 33px 4px;
+    border-bottom: 1px solid #e5e5e5;
+
+    font-family: inherit;
+    font-style: inherit;
+}

@@ -1,0 +1,49 @@
+.banner {
+    left: -1px;
+    z-index: 0;
+    overflow: hidden;
+    margin-top: -158px;
+    width: 1920px;
+}
+
+.banner-homepage {
+    height: 985px;
+}
+
+.banner-tickets {
+    height: 596px;
+}
+
+.banner__img {
+    width: 100%;
+    opacity: 0.69;
+}
+
+.banner-homepage__title {
+    position: absolute;
+    z-index: 2;
+    width: 506px;
+    height: 170px;
+    left: 348px;
+    margin-top: 573px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 72px;
+    line-height: 84px;
+
+    color: #ffffff;
+}
+
+.strong-text {
+    font-weight: 700;
+}
+
+.banner-homepage__line {
+    position: absolute;
+    width: 1919px;
+    height: 8px;
+
+    background: #ffa800;
+}

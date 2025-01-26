@@ -1,0 +1,129 @@
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: #ffa800;
+}
+
+.footer {
+    height: 519px;
+    width: 1920px;
+    padding: 0;
+    margin: 0;
+    background-color: #2d2b2f;
+    flex: 0 0 auto;
+
+    font-family: "Roboto";
+    font-style: normal;
+}
+
+/* раздел Контакты */
+.footer-contacts {
+    margin-left: 343px;
+    width: 412px;
+}
+
+.footer-contacts__title,
+.footer-subscribe__title,
+.footer-social__title {
+    height: 61px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35.16px;
+}
+
+.footer-social__title {
+    margin-top: 44px;
+    height: 29px;
+    margin-bottom: 28px;
+}
+
+.footer-contacts__list {
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contacts__list-item {
+    margin-bottom: 30px;
+}
+
+.footer-contacts__wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contacts__icon-wrap {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-contacts__paragraph {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #e5e5e5;
+    width: 250px;
+    margin: 0;
+    margin-left: 36px;
+}
+
+/* раздел Подписка */
+.footer-subscribe__text {
+    height: 44px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #e5e5e5;
+}
+
+.footer-social__icons-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.icon_link:hover {
+    color: #ffa800;
+}
+
+/* раздел Копирайт */
+.footer-border {
+    border: 1px solid #e5e5e5;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 103px;
+}
+
+.footer-copyright__up-link {
+    margin-left: 598px;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 36px;
+    border: 1px solid #e5e5e5;
+}
+
+.footer-copyright__text {
+    margin-left: 574px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #e5e5e5;
+}
+
+.footer-copyright__up-link:active,
+.footer-copyright__up-link:hover {
+    border: 1px solid #ffa800;
+    color: #ffa800;
+}

@@ -1,0 +1,96 @@
+.btn {
+    font-family: "Roboto";
+    font-style: normal;
+    text-align: center;
+}
+
+/* Кнопка в форме поиска */
+.header-form-homepage-control-block__btn {
+    width: 323px;
+    height: 60px;
+    background: #ffa800;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #292929;
+}
+
+.header-form-homepage-control-block__btn:hover {
+    background: #ffa800;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-form-homepage-control-block__btn:focus {
+    border: 1px solid #ffa800;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #fff;
+    color: #ffa800;
+}
+
+
+
+/* Кнопка "Как это работает" */
+.how-it-works__btn {
+    position: absolute;
+    width: 325px;
+    height: 60px;
+    top: 60px;
+    right: 261px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #ffffff;
+    background-color: inherit;
+
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.how-it-works__btn:hover {
+    color: #2d2b2f;
+    background: #ffca62;
+    border: none;
+}
+
+.how-it-works__btn:focus {
+    color: #2d2b2f;
+    background: #ffffff;
+    border: none;
+}
+
+/* Кнопка в форме подписки */
+.footer-subscribe__btn {
+    width: 169px;
+    height: 60px;
+    margin-left: 33px;
+    color: #e5e5e5;
+    background-color: #2d2b2f;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-transform: uppercase;
+    outline: 0px;
+    box-shadow: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-subscribe__btn:hover {
+    background: #ffca62;
+    color: #2D2B2F;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.footer-subscribe__btn:focus {
+    background: #fff;
+    color: #2D2B2F;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}

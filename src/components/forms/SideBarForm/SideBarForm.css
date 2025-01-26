@@ -1,0 +1,48 @@
+.sidebar-switch-block {
+    display: grid;
+    gap: 28px;
+    border-top: 1px solid #E5E5E5;
+    padding: 43px 36px 34px 68px;
+}
+
+.sidebar-price-block {
+    min-height: 100px;
+    border-top: 1px solid #e5e5e5;
+    padding: 37px 34px 32px 30px;
+}
+
+.sidebar-price-block__label {
+    width: 331px;
+    height: 46px;
+    margin: 0;
+
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 300;
+
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.sidebar-common-block {
+    padding: 27px 34px 25px 30px;
+    border-top: 1px solid #e5e5e5;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    min-height: 100px;
+}
+
+.sidebar-common-block__title {
+    width: 231px;
+    height: 35px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffffff;
+    
+    margin-left: 12px;
+}
+
+
+

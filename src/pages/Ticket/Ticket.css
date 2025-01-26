@@ -1,0 +1,13 @@
+.selection-train-wrapper {
+    background-color: #e5e5e5;
+    display: flex;
+    /* min-height: 774px; */
+    width: 1920px;
+}
+
+.selection-train-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

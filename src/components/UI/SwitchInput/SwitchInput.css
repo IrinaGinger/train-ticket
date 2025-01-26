@@ -1,0 +1,67 @@
+.sidebar-switch__label-container {
+    cursor: pointer;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 20px 23fr 10fr;
+    align-items: center;
+    gap: 33px;
+    user-select: none;
+}
+
+.switch-icon {
+    width: 20px;
+    color: #E5E5E5;
+}
+
+.sidebar-switch__label {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.sidebar-switch__control {
+    display: inline-block;
+    background: #FFF;
+    border-radius: 16px;
+    width: 72px;
+    height: 24px;
+    position: relative;
+    vertical-align: middle;
+    /* transition: background 0.25s; */
+    flex-shrink: 0;
+}
+
+.sidebar-switch__control::before,
+.sidebar-switch__control::after {
+    content: '';
+}
+
+.sidebar-switch__control::before {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: #C4C4C4;
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    transition: left 0.25s;
+}
+
+.sidebar-switch__checkbox {
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+}
+
+.sidebar-switch__checkbox:not(:disabled):checked+span+span {
+    background: #FCDC9D;
+}
+
+.sidebar-switch__checkbox:disabled:checked+span {
+    background: #FCDC9D;
+}
+
+.sidebar-switch__checkbox:checked+span+span::before {
+    left: 46px;
+    background: #FFA800;
+}

@@ -1,0 +1,19 @@
+.navbar-header-wrapper {
+    width: 1920px;
+    height: 94px;
+    /* padding: 0; */
+
+    background: #292929;
+}
+
+.navbar-header {
+    position: absolute;
+    width: 828px;
+    height: 43px;
+    left: 250px;
+}
+
+ul.navbar-nav.mr-auto.nav-list {
+    width: 100%;
+    justify-content: space-between;
+}

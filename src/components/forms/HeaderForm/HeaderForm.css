@@ -1,0 +1,40 @@
+.header-form.homepage {
+    position: absolute;
+    top: 253px;
+    left: 958px;
+    width: 729px;
+    height: 574px;
+    background: rgba(41, 41, 41, 0.8);
+    padding-top: 79px;
+}
+
+.header-form__title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 12px;
+    margin-left: 21px;
+}
+
+.header-form-direction-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-left: 21px;
+    padding-right: 24.25px;
+}
+
+.reverse-button {
+    margin-right: 4px;
+    margin-left: 4px;
+    border: none;
+}
+
+.header-form-homepage-control-block {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 21px;
+    padding-right: 24.25px;
+}

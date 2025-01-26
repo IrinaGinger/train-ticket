@@ -1,0 +1,18 @@
+.header {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: -1px;
+
+    width: 1920px;
+    padding: 0;
+}
+
+.header-top {
+    box-sizing: border-box;
+    padding-top: 15px;
+    height: 64px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
