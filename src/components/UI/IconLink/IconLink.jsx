@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import "./IconLink.css";
 
 export default function IconLink(props) {
-    const { linkClassName, href, imgSrc, imgAlt, imgClassName } = props;
+    const { linkClassName, href, children } = props;
     return (    
         <a className={`${linkClassName} text-center`} href={href}>
-            <img src={imgSrc} alt={imgAlt} className={imgClassName} />
+            {children}
         </a>  
     );
 };
@@ -14,7 +14,8 @@ export default function IconLink(props) {
 IconLink.propTypes = {
     linkClassName: PropTypes.string,
     href: PropTypes.string,
-    imgSrc: PropTypes.string,
-    imgAlt: PropTypes.string,
-    imgClassName: PropTypes.string,
+    children: PropTypes.element,
+    // ImgComp: PropTypes.element,
+    // imgAlt: PropTypes.string,
+    // imgClassName: PropTypes.string,
 }

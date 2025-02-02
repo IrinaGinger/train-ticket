@@ -10,11 +10,11 @@ import ic_email from "../img/footer/ic_email.svg";
 import ic_skype from "../img/footer/ic_skype.svg";
 import ic_geo from "../img/footer/ic_geo.svg";
 
-import ic_youtube from "../img/footer/ic_youtube.svg";
-import ic_linkedin from "../img/footer/ic_linkedin.svg";
-import ic_google from "../img/footer/ic_google.svg";
-import ic_facebook from "../img/footer/ic_facebook.svg";
-import ic_twitter from "../img/footer/ic_twitter.svg";
+// import ic_youtube from "../img/footer/ic_youtube.svg";
+// import ic_linkedin from "../img/footer/ic_linkedin.svg";
+// import ic_google from "../img/footer/ic_google.svg";
+// import ic_facebook from "../img/footer/ic_facebook.svg";
+// import ic_twitter from "../img/footer/ic_twitter.svg";
 
 import ic_2_class from "../img/forms/ic_2_class.svg";
 import ic_3_class from "../img/forms/ic_3_class.svg";
@@ -96,38 +96,38 @@ export const FooterContacts = [
     },
 ]
 
-export const Social = [
-    {
-        id: '1',
-        href: "#youtube",
-        img: ic_youtube,
-        alt: "youtube",
-    },
-    {
-        id: '2',
-        href: "#linkedin",
-        img: ic_linkedin,
-        alt: "linkedin",
-    },
-    {
-        id: '3',
-        href: "#google",
-        img: ic_google,
-        alt: "google",
-    },
-    {
-        id: '4',
-        href: "#facebook",
-        img: ic_facebook,
-        alt: "facebook",
-    },
-    {
-        id: '5',
-        href: "#twitter",
-        img: ic_twitter,
-        alt: "twitter",
-    },
-]
+// export const Social = [
+//     {
+//         id: '1',
+//         href: "#youtube",
+//         ImgComp: ic_youtube,
+//         alt: "youtube",
+//     },
+//     {
+//         id: '2',
+//         href: "#linkedin",
+//         ImgComp: ic_linkedin,
+//         alt: "linkedin",
+//     },
+//     {
+//         id: '3',
+//         href: "#google",
+//         ImgComp: ic_google,
+//         alt: "google",
+//     },
+//     {
+//         id: '4',
+//         href: "#facebook",
+//         ImgComp: ic_facebook,
+//         alt: "facebook",
+//     },
+//     {
+//         id: '5',
+//         href: "#twitter",
+//         ImgComp: ic_twitter,
+//         alt: "twitter",
+//     },
+// ]
 
 export const sideBarSwitchData = [
     {
